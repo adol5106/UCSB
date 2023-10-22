@@ -1,0 +1,18 @@
+// usestack.cpp - for CS 24 Lab05 practice using stacks
+// Timothy Hinh, QingYun Zhang, 11/10/14
+
+#include "intstack.h"
+#include <iostream>
+using namespace std;
+
+int main() {
+  Stack<char *> num;
+ 
+  do{
+    
+    
+
+  }
+  while (!num.empty)
+    
+}

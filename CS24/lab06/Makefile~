@@ -1,0 +1,9 @@
+
+testQ.o: testQ.cpp
+	g++ -Wall -c testQ.cpp
+
+testlist: testQ.o listQ.o
+	g++ -Wall -o testQ testQ.o listQ.o
+
+listQ.o: listQ.cpp
+	g++ -Wall -c listQ.cpp
